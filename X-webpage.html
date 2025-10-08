@@ -1,0 +1,157 @@
+<title>Whale</title>
+  <div class="space-y-4">
+            <p id="status-message" class="text-xl font-semibold text-gray-700"></p>
+<div class="p-6 bg-blue-50 rounded-lg border border-blue-200">
+                <h2 class="text-lg text-blue-800 font-medium mb-1"></h2>
+                <h1 aglin="center" id="ip-display">
+                </h1>
+            </div>
+<div class="w3-spin">
+<h1 align="center" id="Whale1"><img src="Whale1-removebg-preview.png" width="500" height="500"></h1>
+</div>
+<h1 align="center" id="horse1"><img src="Horse.png" id=horse width="500" height="500"></h1>
+<h1 align="center" id="segway"><img src="horsesegway.png" width="600" height="600"></h1>
+<h1 align="center" id="horse2"><img src="HorseFace.png" width="1000" height="1000"></h1>
+<h1 align="center" id="explosion"><img src="explosion.gif" width="1000" height="1000"></h1>
+<h1 align="center" id="lowtier"><img src="lowtiergod.png" width="1000" height="1000"></h1>
+<h1 align="center" id="lighting"><img src="blue.GIF" width="1000" height="1000"></h1>
+<body>
+<style>#Whale1{  
+ position: relative;
+ animation-name: myAnimation;
+  animation-duration: 8s;
+  animation-direction: reverse;  
+  animation-iteration-count: 999;
+  z-index: 1;
+}
+#horse1{
+   position: relative;
+  animation-name: HorseAnimation;
+  animation-duration: 6s;
+  animation-direction: reverse;  
+  animation-iteration-count: 1;
+  opacity: 0%;
+  z-index: 1;
+  top: -200px;
+}
+#horse2{position: fixed;
+animation-name:Horse2 ;
+animation-duration:6s;
+animation-iteration-count: 1;
+animation-duration: reverse;
+animation-delay: 6s;
+opacity: 0%;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+z-index: 2;
+}
+#explosion{
+  position: fixed;
+animation-name: Explosion;
+animation-duration:1s;
+animation-iteration-count: 1;
+animation-duration: reverse;
+animation-delay: 6s;
+opacity: 0%;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+z-index: 2;
+opacity: 0%;
+}
+#segway{
+position: relative;
+animation-name: Segway;
+animation-duration: 6s;
+animation-iteration-count: 1;
+animation-direction: reverse;
+animation-delay:10s;
+z-index: 2;
+top: 0;
+right: 400px;
+left: 0;
+bottom: 0;
+}
+#lowtier{
+  position: fixed;
+  animation-name: LowTier;
+  animation-duration: 5s;
+  animation-direction: reverse;
+  animation-iteration-count: 1;
+  z-index: 3;
+  opacity: 0%;
+  animation-delay: 0s;
+  top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+  animation-delay: 16s;
+}
+#lighting{
+  position: fixed;
+  z-index: 4;
+  top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+  animation-name:LowTier;
+  animation-duration: 5s;
+  animation-direction: reverse;
+  animation-iteration-count: 1;
+  opacity: 0%;
+  animation-delay: 16s;
+}
+h1{
+  position: relative;
+  font-style: italic;
+  color: #fd0404;
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: darkred;
+  z-index: 4;
+  left: 700px;
+  top: 350px;
+}
+@keyframes myAnimation {
+  0%   {left:0px; top:0px;}
+  25%  {left:500px; top:0px;}
+  50%  {left:500px; top:500px;}
+  75%  { left:0px; top:500px;}
+  100% {left:0px; top:0px;}
+}
+@keyframes HorseAnimation{
+  100%{opacity: 0%;}
+   0%{opacity: 100%;}
+  0%{left: 70px;}
+  100%{left: 1100px;}
+}
+@keyframes Horse2{
+  0%{opacity: 0%;}
+  100%{opacity: 100%;}
+}
+@keyframes Explosion{
+  0%{opacity: 0%;}
+   100%{opacity: 100%;}
+}
+@keyframes Segway{
+  0%{left: -1000px; top: -825px;}
+  100%{left: 0; top: -825px;}
+} 
+@keyframes LowTier{
+  100%{opacity: 0%;}
+  0%{opacity: 100%;}
+}
+body{
+ background-image: url(https://cdn.wallpapersafari.com/98/65/JT1jNk.jpg);
+ height: 100%;
+ overflow: hidden;}
+</style>
+</body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="funnyCode.js">
+  
+</script>
