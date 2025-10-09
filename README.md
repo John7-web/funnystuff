@@ -1,1 +1,1 @@
-https://john7-web.github.io/funnystuff/public/
+https://john7-web.github.io/funnystuff/
